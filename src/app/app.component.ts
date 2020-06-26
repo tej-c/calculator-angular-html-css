@@ -52,18 +52,24 @@ result(){
   if(this.b=="-"){
     this.screen=this.screen+"="+(parseInt(this.a)-parseInt(this.c)).toString();
     this.screen=(parseInt(this.screen)-parseInt(this.c)).toString();
+    this.objectArray.push(parseInt(this.screen)+parseInt(this.c));
+    console.log(this.objectArray)
 
 
   }
   if(this.b=="*"){
     this.screen=this.screen+"="+(parseInt(this.a)*parseInt(this.c)).toString();
     this.screen=(parseInt(this.screen)*parseInt(this.c)).toString();
+    this.objectArray.push(parseInt(this.screen)+parseInt(this.c));
+    console.log(this.objectArray)
 
 
   }
   if(this.b=="/"){
     this.screen=this.screen+"="+(parseInt(this.a)/parseInt(this.c)).toString();
     this.screen=(parseInt(this.screen)/parseInt(this.c)).toString();
+    this.objectArray.push(parseInt(this.screen)+parseInt(this.c));
+    console.log(this.objectArray)
 
 
   }
