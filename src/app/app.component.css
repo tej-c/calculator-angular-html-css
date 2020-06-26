@@ -1,0 +1,49 @@
+.container input{
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 2px;
+    font-size: x-large;
+    width: 100px;
+    height: 50px;
+    color: rgb(255, 176, 189);
+    background-color:whitesmoke;
+    
+}
+.container input:hover{
+    color: whitesmoke;
+    background-color: pink;
+}
+.calc input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: pink;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.calc input:hover{
+    background-color: whitesmoke;
+}
+
+.full{
+
+    padding: 10px;
+    width: 420px;
+    border-radius: 20px;
+    background-color: pink;
+    margin-left: 550px;
+    margin-top: 75px;
+    border: 2px;
+}
+body{
+    background-color: pink;
+}
+h2{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
